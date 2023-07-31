@@ -59,7 +59,6 @@ def evaluate(schema_path,
 
     predictor = Predictor(len(lp.b_inds), tau)
 
-
     # Initialise control loop.
     forecast_time_elapsed = 0
     lp_solver_time_elapsed = 0
