@@ -296,7 +296,7 @@ class Predictor:
                     # past_dif_irads = self.past_dif_irads[t - self.L + 1:t + 1]
                     # past_dir_irads = self.past_dir_irads[t - self.L + 1:t + 1]
 
-                    #TODO: the following needs to be checked
+
 
                     # print('control window ', t, ' : ', self.L +t+(self.L))
                     # future_dif_irads = self.dif_irads[t - self.L + 1 : t +1 ]
